@@ -1,0 +1,42 @@
+{
+  "name": "template-porject",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.ts --config .eslintrc.js",
+    "lint:fix": "eslint . --ext .vue,.js,.ts --config .eslintrc.js --fix",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,vue}": ["eslint --fix", "eslint"]
+  },
+  "dependencies": {
+    "postcss-px-to-viewport": "^1.1.1",
+    "vant": "^4.9.21",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@eslint/migrate-config": "^1.6.1",
+    "@types/node": "^24.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
+    "prettier": "^2.7.1",
+    "typescript": "~5.9.3",
+    "unplugin-vue-components": "^30.0.0",
+    "vite": "^7.1.7",
+    "vue-tsc": "^3.1.0"
+  }
+}
