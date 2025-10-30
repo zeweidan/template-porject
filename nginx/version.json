@@ -1,5 +1,5 @@
 {
-  "description": "jidu-%shortName%-wap",
+  "description": "jidu-<%= projectName %>-wap",
   "status": "UP",
   "version": "__TAG__"
 }

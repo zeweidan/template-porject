@@ -1,8 +1,8 @@
 {
-  "name": "jidu-%shortName%-wap",
+  "name": "jidu-<%= projectName %>-wap",
   "private": true,
   "version": "0.0.0",
-  "description": "jidu-%shortName%-wap",
+  "description": "jidu-<%= projectName %>-wap",
   "scripts": {
     "dev": "vite",
     "serve:dev": "vite --mode dev",
