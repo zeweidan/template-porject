@@ -11,7 +11,10 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,vue}": ["eslint --fix", "eslint"]
+    "*.{js,jsx,ts,vue}": [
+      "eslint --fix",
+      "eslint"
+    ]
   },
   "dependencies": {
     "postcss-px-to-viewport": "^1.1.1",
@@ -31,7 +34,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-vue": "^9.4.0",
-    "husky": "^9.1.7",
+    "husky": "^8.0.1",
     "lint-staged": "^16.2.6",
     "prettier": "^2.7.1",
     "typescript": "~5.9.3",
